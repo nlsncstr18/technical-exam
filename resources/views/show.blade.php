@@ -9,7 +9,8 @@
         <h2 style="margin-bottom: 10px;">Category: {{ $cocktail['strCategory'] }}</h2>
         <h2 style="margin-bottom: 10px;">Alcoholic: {{ $cocktail['strAlcoholic'] }}</h2>
         <h2 style="margin-bottom: 10px;">Glass: {{ $cocktail['strGlass'] }}</h2>
-        <h2 style="margin-bottom: 10px;">Instructions: {{ $cocktail['strInstructions'] }}</h2>
+        <h2 style="margin-bottom: 10px;">Instructions: <ul>{{ $cocktail['strInstructions'] }}</ul>
+        </h2>
     </div>
 </div>
 <div style="text-align: center;  ">
